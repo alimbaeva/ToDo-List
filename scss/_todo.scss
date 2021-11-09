@@ -1,0 +1,96 @@
+.todo {
+    background-color: rgb(220, 245, 237);
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__title_js {
+        font-size: 40px;
+    }
+
+    &__title ,
+    &__title_js {
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+
+    &__btn {
+        padding: 4px 10px;
+        display: block;
+        align-self: flex-end;
+        border-radius: 8px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    &__form-wrapper{
+        flex-grow: 1;
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: rgb(136, 219, 219);
+    }
+
+    &__list-wrapper {
+        max-width: 400px;
+        flex-grow: 1;
+    }
+
+    &__result {
+        font-size: 20px;
+    }
+
+    &__wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    &__input {
+        border-radius: 6px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    &__label {
+        margin-bottom: 15px;
+    }
+
+    &__list-item {
+        margin-bottom: 25px;
+    }
+
+
+}
+
+.post {
+    position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(219, 136, 136);
+
+    &__complete {
+        background-color: rgb(191, 219, 145);
+    }
+
+    &__auther {
+        margin-bottom: 15px;
+    }
+
+    &__ready {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: 25px;
+        height: 25px;
+    }
+}
+

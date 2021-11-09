@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO__LIST</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <section class="present">
+        <div class="container qs">
+            <h1 class="present__title">Asel todo-list</h1>
+            <p class="present__subtitle">Основы JS</p>
+
+            <ul class="present__list">
+                <li class="present__item"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="todo">
+        <div class="container">
+            <h2 class="todo__title todo__title_js">Список дел сотрудника</h2>
+            <div class="todo__wrapper">
+                <div class="todo__form-wrapper">
+                    <form class="todo__form" id="form__todo">
+
+                        <label class="todo__label" for="auther">Автор</label>
+                        <input class="todo__input" id="auther" name="auther" type="text" required>
+
+                        <label class="todo__label" for="post">Задача</label>
+                        <input class="todo__input" id="post" name="post" type="text" required>
+
+                        <button class="todo__btn" type="submit">Отправить</button>
+                    </form>
+
+                    <p class="todo__result">Всего дел: <span class="todo__count">2</span></p>
+                </div>
+                <div class="todo__list-wrapper">
+                    <ol class="todo__list">
+                        <!-- <li class="todo__list-item">
+                            <article class="post">
+                                <h3 class="post__auther">Виктор Степанович</h3>
+                                <p class="post__todo">Сдат Отчет</p>
+                                <button class="post__ready" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                                    </svg></button>
+                            </article>
+                        </li>
+
+                        <li class="todo__list-item">
+                            <article class="post">
+                                <h3 class="post__auther">Степан Степанович</h3>
+                                <p class="post__todo">Сдат хдеб</p>
+                                <button class="post__ready" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                                    </svg></button>
+                            </article>
+                        </li> -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calc">
+        <div class="container">
+            <h2 class="calc__title">Кфлькулятор</h2>
+            <from class="calc__form" id="form-calc">
+
+                <label class="calc__label" for="x">Введите первое число</label>
+                <input class="calc__input" id="x" name="x" type="number">
+
+                <label class="calc__label" for="y">Введите второе число</label>
+                <input class="calc__input" id="y" name="y" type="number">
+
+                <div class="calc__btn-wrapper">
+                    <button class="calc__btn" type="button">+</button>
+                    <button class="calc__btn" type="button">-</button>
+                    <button class="calc__btn" type="button">x</button>
+                    <button class="calc__btn" type="button">/</button>
+                </div>
+                <span class="calc__label">Результат</span>
+                <output class="calc__result" id="" name="result">0</output>
+            </from>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
